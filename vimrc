@@ -21,6 +21,10 @@ Plugin 'surround.vim'
 call vundle#end()
 filetype plugin indent on
 
+" keep tilda and .swp files in home dir instead of working dir
+set directory=~/.vim/backup
+set backupdir=~/.vim/backup
+
 set relativenumber
 set number
 syntax on
