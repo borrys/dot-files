@@ -17,6 +17,7 @@ Plugin 'guns/vim-clojure-highlight'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'paredit.vim'
 Plugin 'surround.vim'
+Plugin 'venantius/vim-cljfmt'
 
 call vundle#end()
 filetype plugin indent on
@@ -44,3 +45,6 @@ au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
 set tabstop=4 softtabstop=0 expandtab shiftwidth=2 smarttab
+
+" clojure format on save
+let g:clj_fmt_autosave = 0
