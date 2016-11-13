@@ -22,6 +22,7 @@ call vundle#end()
 filetype plugin indent on
 
 set relativenumber
+set number
 syntax on
 
 " some tweaks to splits
