@@ -6,4 +6,5 @@ chsh -s `which zsh`
 
 ./zsh-init.sh
 ./vim-init.sh
+./java-init.sh
 ./clojure-init.sh
